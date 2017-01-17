@@ -1,0 +1,28 @@
+{
+  "name": "tempfile-stream",
+  "version": "1.0.0",
+  "description": "creates a temporary file, that has a filename, can be written to and read from and is deleted on process.exit",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/tempfile-stream.git"
+  },
+  "keywords": [
+    "temp",
+    "temporary",
+    "file",
+    "stream"
+  ],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/tempfile-stream/issues"
+  },
+  "homepage": "https://github.com/serapath/tempfile-stream#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
